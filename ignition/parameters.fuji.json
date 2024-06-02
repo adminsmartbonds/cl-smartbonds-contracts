@@ -1,0 +1,23 @@
+{
+  "SBSimpleContractManagerDeploy_V22" : {
+    "_functionsRouter": "0xA9d587a00A31A52Ed70D6026794a8FC5E2F5dCb0",
+    "_subId":"8207",
+    "_donId": "0x66756e2d6176616c616e6368652d66756a692d31000000000000000000000000",
+    "_secretSlot": "0",
+    "_secretVersion": "1717086989",
+    "requestDeployCode" : "functions/src/SBRequestDeployContract.js",
+    "_callbackGasLimit": "250000"
+  },
+  "SBContractManagerDeploy_V11" : {
+    "_functionsRouter": "0xA9d587a00A31A52Ed70D6026794a8FC5E2F5dCb0",
+    "_ccipRouterAddress": "0xF694E193200268f9a4868e4Aa017A0118C9a8177",
+    "_linkAddress": "0x0b9d5D9136855f6FEc3c0993feE6E9CE8a297846",
+    "_subId":"8207",
+    "_donId": "0x66756e2d6176616c616e6368652d66756a692d31000000000000000000000000",
+    "_secretSlot": "0",
+    "_secretVersion": "1717193684",
+    "requestDeployCode" : "functions/src/SBRequestDeployContract.js",
+    "_callbackGasLimit": "250000",
+    "_ccipGasLimit": "1000000"
+  }
+}

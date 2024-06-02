@@ -1,0 +1,180 @@
+<mxfile host="Electron" modified="2024-06-02T19:22:59.404Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="NsdfQDuz6hagoN0tErLo" version="24.2.5" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="2474" dy="1597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="QKhy4VT8v2JREiKVsCTD-0" value="&lt;div&gt;ETH Mainnet&lt;/div&gt;Contract&amp;nbsp;&lt;div&gt;Manager&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="310" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QKhy4VT8v2JREiKVsCTD-1" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Deploys other contracts, mainly the bond contracts&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Manages deployments accross chains&lt;/li&gt;&lt;li&gt;There will be 1 instance of the manager on each chain.&lt;/li&gt;&lt;li&gt;As such a Contract Manager is also a CCIP sender AND receiver&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-120" y="150" width="250" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="QKhy4VT8v2JREiKVsCTD-2" value="Extrernal Trigger&lt;div&gt;In future potential&amp;nbsp;&lt;/div&gt;&lt;div&gt;Chainlink DON&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="110" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QKhy4VT8v2JREiKVsCTD-9" value="Bond Contract" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="610" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QKhy4VT8v2JREiKVsCTD-11" value="&lt;div&gt;Fuji&lt;/div&gt;Contract&amp;nbsp;&lt;div&gt;Manager&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="510" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QKhy4VT8v2JREiKVsCTD-12" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.444;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QKhy4VT8v2JREiKVsCTD-0" target="QKhy4VT8v2JREiKVsCTD-11" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="880" as="sourcePoint" />
+            <mxPoint x="540" y="830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="650" />
+              <mxPoint x="613" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QKhy4VT8v2JREiKVsCTD-13" value="Request creation of BOND XYZ&amp;nbsp;&lt;div&gt;on Diffrent Chain using &lt;b&gt;Chainlink CCIP&lt;/b&gt; call.&lt;/div&gt;&lt;div&gt;In our example Avalanche&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QKhy4VT8v2JREiKVsCTD-12" vertex="1" connectable="0">
+          <mxGeometry x="0.1852" y="-17" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QKhy4VT8v2JREiKVsCTD-15" value="Bond Contract" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="354" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QKhy4VT8v2JREiKVsCTD-16" value="Deploy BOND XYZ Contract&amp;nbsp;&lt;div&gt;on Solana Mainnet&amp;nbsp;&lt;/div&gt;" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QKhy4VT8v2JREiKVsCTD-11" target="QKhy4VT8v2JREiKVsCTD-15" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="950" as="sourcePoint" />
+            <mxPoint x="340" y="900" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="990" />
+              <mxPoint x="420" y="980" />
+              <mxPoint x="400" y="1000" />
+              <mxPoint x="430" y="1020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QKhy4VT8v2JREiKVsCTD-17" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="800" as="sourcePoint" />
+            <mxPoint x="820" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QKhy4VT8v2JREiKVsCTD-18" value="&lt;font style=&quot;font-size: 27px;&quot;&gt;ETH Sepolia&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="30" y="40" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="QKhy4VT8v2JREiKVsCTD-19" value="&lt;font style=&quot;font-size: 27px;&quot;&gt;Avalanche&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 27px;&quot;&gt;Fuji&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="20" y="820" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="QKhy4VT8v2JREiKVsCTD-20" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="369" y="40" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0qA03BcpFNXt_X9Gaua0-0" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QKhy4VT8v2JREiKVsCTD-2" target="QKhy4VT8v2JREiKVsCTD-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="450" as="sourcePoint" />
+            <mxPoint x="120" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="450" />
+              <mxPoint x="160" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0qA03BcpFNXt_X9Gaua0-2" value="Deploy Contract for BOND XYZ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0qA03BcpFNXt_X9Gaua0-0">
+          <mxGeometry x="-0.1381" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0qA03BcpFNXt_X9Gaua0-1" value="Google Cloud" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="950" y="270" width="500" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="0qA03BcpFNXt_X9Gaua0-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QKhy4VT8v2JREiKVsCTD-20" target="0qA03BcpFNXt_X9Gaua0-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="100" as="sourcePoint" />
+            <mxPoint x="900" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1080" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0qA03BcpFNXt_X9Gaua0-4" value="Prepare Contract for BOND XYZ&lt;br&gt;We send the ABI , ByteCode and Initialization&lt;br&gt;parameters of the contract to Google Cloud" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0qA03BcpFNXt_X9Gaua0-3">
+          <mxGeometry x="-0.019" y="1" relative="1" as="geometry">
+            <mxPoint y="-87" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0qA03BcpFNXt_X9Gaua0-8" value="Prepare the contract Payload&lt;div&gt;for BOND XYZ&lt;/div&gt;&lt;div&gt;This includes the ABI, Bytecode and&lt;/div&gt;&lt;div&gt;parameters for the contract&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0qA03BcpFNXt_X9Gaua0-3">
+          <mxGeometry x="-0.1741" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0qA03BcpFNXt_X9Gaua0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QKhy4VT8v2JREiKVsCTD-0" target="0qA03BcpFNXt_X9Gaua0-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="350" />
+              <mxPoint x="770" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0qA03BcpFNXt_X9Gaua0-6" value="&lt;div&gt;Use &lt;b&gt;Chainlink Functions&lt;/b&gt; to&lt;/div&gt;Request Deployment of&lt;div&gt;contract for BOND XYZ&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0qA03BcpFNXt_X9Gaua0-5">
+          <mxGeometry x="-0.3311" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0qA03BcpFNXt_X9Gaua0-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="0qA03BcpFNXt_X9Gaua0-7" target="0qA03BcpFNXt_X9Gaua0-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1300" y="480" />
+              <mxPoint x="1300" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0qA03BcpFNXt_X9Gaua0-12" value="Schedule Task to deploy&lt;div&gt;the Contract&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0qA03BcpFNXt_X9Gaua0-11">
+          <mxGeometry x="-0.3398" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0qA03BcpFNXt_X9Gaua0-7" value="Contract Management API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1030" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0qA03BcpFNXt_X9Gaua0-9" value="Deployment Task Manager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1030" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0qA03BcpFNXt_X9Gaua0-13" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1181" y="496" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0qA03BcpFNXt_X9Gaua0-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="0qA03BcpFNXt_X9Gaua0-7" target="0qA03BcpFNXt_X9Gaua0-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1090" y="940" as="sourcePoint" />
+            <mxPoint x="1140" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0qA03BcpFNXt_X9Gaua0-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="0qA03BcpFNXt_X9Gaua0-9" target="0qA03BcpFNXt_X9Gaua0-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1010" y="790" as="sourcePoint" />
+            <mxPoint x="1060" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QKhy4VT8v2JREiKVsCTD-10" value="Deploy BOND XYZ contract" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="0qA03BcpFNXt_X9Gaua0-9" target="QKhy4VT8v2JREiKVsCTD-9" edge="1">
+          <mxGeometry x="0.0305" y="24" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="320" as="sourcePoint" />
+            <mxPoint x="520" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="860" y="610" />
+              <mxPoint x="680" y="520" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0qA03BcpFNXt_X9Gaua0-25" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.878;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="0qA03BcpFNXt_X9Gaua0-9" target="QKhy4VT8v2JREiKVsCTD-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="630" as="sourcePoint" />
+            <mxPoint x="900" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="900" y="500" />
+              <mxPoint x="610" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0qA03BcpFNXt_X9Gaua0-27" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Notify the Contract Manager&lt;/span&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;that the contract was deployed&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0qA03BcpFNXt_X9Gaua0-25">
+          <mxGeometry x="0.651" y="-6" relative="1" as="geometry">
+            <mxPoint x="117" y="57" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
